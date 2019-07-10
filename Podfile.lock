@@ -1,0 +1,16 @@
+PODS:
+  - Contentstack (3.3.1)
+
+DEPENDENCIES:
+  - Contentstack
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Contentstack
+
+SPEC CHECKSUMS:
+  Contentstack: 14899dbb57552d79573ea85a320c4e46ecd35f73
+
+PODFILE CHECKSUM: b00515cfa58877ef50c41b677ddc9ed90f52d9fd
+
+COCOAPODS: 1.5.3
