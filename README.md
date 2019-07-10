@@ -26,7 +26,7 @@ To add an environment in Contentstack, navigate to ‘Settings' -> 'Environment'
 
 ### Step 3: Import content types
 A content type is like the structure or blueprint of a page or a section of your web or mobile property. Read more about [Content Types](https://www.contentstack.com/docs/guide/content-types).
-For this website, basic content types are required: Product. For quick integration, we have already created these content types. You simply need to import them to your stack. (You can also create your own content types. Learn [how to do this](https://www.contentstack.com/docs/guide/content-types#creating-a-content-type)).
+For this app, basic content types are required: Product. For quick integration, we have already created these content types. You simply need to import them to your stack. (You can also create your own content types. Learn [how to do this](https://www.contentstack.com/docs/guide/content-types#creating-a-content-type)).
 
 
 ### Step 4: Adding content
