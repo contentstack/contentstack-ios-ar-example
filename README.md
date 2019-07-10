@@ -32,7 +32,7 @@ For this app, basic content types are required: Product. For quick integration, 
 ### Step 4: Adding content
 Create and publish entries for all the content types
 
-Add a few dummy entries for news articles for the ‘Product’ content type. Save and publish these entries. Learn how to [create](https://www.contentstack.com/docs/guide/content-management#add-a-new-entry) and [publish](https://www.contentstack.com/docs/guide/content-management#publish-an-entry) entries.
+Add a few dummy entries for the ‘Product’ content type. Save and publish these entries. Learn how to [create](https://www.contentstack.com/docs/guide/content-management#add-a-new-entry) and [publish](https://www.contentstack.com/docs/guide/content-management#publish-an-entry) entries.
 
 With this step, you have created sample data for your website. Now, it’s time to use and configure the presentation layer. 
 
