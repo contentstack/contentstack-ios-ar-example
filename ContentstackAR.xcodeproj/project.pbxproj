@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77DEC0C37E8B1EAC2DB3B1B8 /* Pods_ContentstackAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CABF6D0F8A53D57782C67C0 /* Pods_ContentstackAR.framework */; };
 		FA2B35D121412B5A0018FD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B35BA21412B5A0018FD9C /* ViewController.swift */; };
 		FA2B35D221412B5A0018FD9C /* ProductsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B35BB21412B5A0018FD9C /* ProductsListController.swift */; };
 		FA2B35D321412B5A0018FD9C /* UINavigationController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B35BD21412B5A0018FD9C /* UINavigationController+Additions.swift */; };
@@ -20,10 +19,11 @@
 		FA2B35DB21412B5A0018FD9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B35C821412B5A0018FD9C /* LaunchScreen.storyboard */; };
 		FA2B35DC21412B5A0018FD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2B35CA21412B5A0018FD9C /* Main.storyboard */; };
 		FA2B35DD21412B5A0018FD9C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B35CD21412B5A0018FD9C /* API.swift */; };
+		FA6E3164398693D0E06B6028 /* libPods-ContentstackAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEC8041BF3E1FD1FA747120 /* libPods-ContentstackAR.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CABF6D0F8A53D57782C67C0 /* Pods_ContentstackAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContentstackAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEC8041BF3E1FD1FA747120 /* libPods-ContentstackAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentstackAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		800C62A7F0978B74E900CBB7 /* Pods-ContentstackAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentstackAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR.debug.xcconfig"; sourceTree = "<group>"; };
 		F2A7FB137B9EFCF21F424913 /* Pods-ContentstackAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentstackAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR.release.xcconfig"; sourceTree = "<group>"; };
 		FA2B357F21412A840018FD9C /* ContentstackAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentstackAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DEC0C37E8B1EAC2DB3B1B8 /* Pods_ContentstackAR.framework in Frameworks */,
+				FA6E3164398693D0E06B6028 /* libPods-ContentstackAR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 		0D94B1BADEC28674F705B870 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7CABF6D0F8A53D57782C67C0 /* Pods_ContentstackAR.framework */,
+				6EEC8041BF3E1FD1FA747120 /* libPods-ContentstackAR.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,7 +192,6 @@
 				FA2B357B21412A840018FD9C /* Sources */,
 				FA2B357C21412A840018FD9C /* Frameworks */,
 				FA2B357D21412A840018FD9C /* Resources */,
-				485299A76963421B5136F825 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,24 +254,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		485299A76963421B5136F825 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Contentstack/Contentstack.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Contentstack.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8FE9266A8B19334672324C5C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
