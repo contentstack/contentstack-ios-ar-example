@@ -159,8 +159,8 @@ class ViewController: UIViewController {
                 self.modelScene = scene
             }
         }else {
-            let alertUser = UIAlertController(title: "", message: "No model found", preferredStyle: UIAlertControllerStyle.alert)
-            let action = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil)
+            let alertUser = UIAlertController(title: "", message: "No model found", preferredStyle: UIAlertController.Style.alert)
+            let action = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
             alertUser.addAction(action)
             self.navigationController?.present(alertUser, animated: true, completion: nil)
         }

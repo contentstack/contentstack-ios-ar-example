@@ -18,7 +18,7 @@ class ProductsListController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.refreshControl = UIRefreshControl()
-        self.refreshControl?.addTarget(self, action: #selector(ProductsListController.loadData), for: UIControlEvents.valueChanged)
+        self.refreshControl?.addTarget(self, action: #selector(ProductsListController.loadData), for: UIControl.Event.valueChanged)
         self.loadData()
         // Do any additional setup after loading the view.
     }
@@ -59,6 +59,7 @@ extension ProductsListController {
             let modelAsset = product.asset(forKey: "model")
                 print(modelAsset)
             if let url = URL(string: modelAsset.url) {
+                self.activityIndicator.center = self.view.center
                 self.activityIndicator.startAnimating()
                 self.activityIndicator.hidesWhenStopped = true
                 self.tableView.addSubview(self.activityIndicator)
