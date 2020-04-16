@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					FA2B357E21412A840018FD9C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -260,7 +261,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Contentstack/Contentstack.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -269,7 +270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContentstackAR/Pods-ContentstackAR-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8FE9266A8B19334672324C5C /* [CP] Check Pods Manifest.lock */ = {
@@ -449,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6e274c1b-c32c-4e3b-8499-03d6d691d2fd";
 				PROVISIONING_PROFILE_SPECIFIER = Sandbox_APNS;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -468,7 +469,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6e274c1b-c32c-4e3b-8499-03d6d691d2fd";
 				PROVISIONING_PROFILE_SPECIFIER = Sandbox_APNS;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
